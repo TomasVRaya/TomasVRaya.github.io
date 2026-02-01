@@ -4,6 +4,21 @@
   <meta charset="UTF-8">
   <title>Mi Empresa de Videovigilancia</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Estilos para que la foto se vea grande y profesional */
+    .banner-container {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .foto-grande {
+      width: 100%;
+      max-width: 1200px; /* Evita que se estire demasiado en monitores grandes */
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -19,10 +34,13 @@
   </header>
 
   <main>
+    <section class="banner-container">
+      <img src="pipi.jpg" alt="Banner de Videovigilancia" class="foto-grande">
+    </section>
+
     <section id="clientes">
       <h2>Lista de Clientes</h2>
-      <!-- Aquí se cargan los datos desde la base -->
-    </section>
+      </section>
 
     <section id="inventario">
       <h2>Inventario de Equipos</h2>
